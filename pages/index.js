@@ -21,7 +21,7 @@ export default function Auth() {
 
     )
     
-    .then((r) => {
+    .then(() => {
       setIslogin(true)
       router.push("/chats")
     })
